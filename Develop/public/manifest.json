@@ -1,13 +1,17 @@
- {
-     "name": "Budget-App",
-     "shortname": "Budget",
-     "icons": [
-         {
-             "src": "./icons/icon-72x72.png",
-             "sizes": "72x72",
-             "type": "image/png"
-         },
-         {
+{
+    "name": "Budget-App",
+    "shortname": "Budget",
+    "theme-color": "#ffffff",
+    "background-color": "#ffffff",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "./icons/icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
             "src": "./icons/icon-96x96.png",
             "sizes": "96x96",
             "type": "image/png"
@@ -42,9 +46,5 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-     ],
-     "theme-color": "#ffffff",
-     "background-color": "#ffffff",
-     "start_url": "/",
-     "display": "standalone"
- }
+    ]
+}
